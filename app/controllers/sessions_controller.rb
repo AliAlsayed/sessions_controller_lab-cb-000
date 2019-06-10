@@ -7,6 +7,7 @@ class SessionsController < ApplicationController
       redirect_to login_path
     else
       redirect_to root_path
+    end
   end
 
   def destroy
